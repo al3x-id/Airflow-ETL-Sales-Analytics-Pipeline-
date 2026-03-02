@@ -114,7 +114,7 @@ Workflow repo: [Link](https://github.com/al3x-id/airflow_dags)
 
 ---
 ## Screenshot
-![Airflow UI](./dashboard/airflow-ui.png "Airflow UI")
+![Airflow UI](./dags/airflow-ui.png "Airflow UI")
 
 ---
 ## Data Analysis with SQL
@@ -160,4 +160,5 @@ business_queries SQL
 views (analytics layer)
     ↓
 Power BI dashboards
+
 ```
