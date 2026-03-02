@@ -15,7 +15,7 @@ SELECT
 country,
 COUNT(customer_id) AS total_customer,
 SUM(sales_amount) AS total_revenue,
-ROUND(AVG(sales_amount), 2) AS avg_order_value
+ROUND(SUM(sales_amount) / COUNT(order_number), 2) AS avg_order_value
 FROM fact_sales
 JOIN dim_customers USING (customer_key)
 GROUP BY country
